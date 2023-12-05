@@ -93,7 +93,7 @@ How To Use Jupyter In Docode
 </div>
 <div class="row text-center">
 <div class="col">
-<iframe frameborder="0" src="https://www.youtube.com/embed/J5MpsvScKzE"></iframe>
+<frame frameborder="0" src="https://www.youtube.com/embed/J5MpsvScKzE"></frame>
 </div>
 </div>
 
