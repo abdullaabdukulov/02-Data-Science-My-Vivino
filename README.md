@@ -1,18 +1,18 @@
 ## Task
-My Vivino data science project aims to leverage data to enhance wine enthusiasts'
-
-experiences by providing valuable insights, recommendations, and predictions related to wines. The primary challenge is to extract
-
-meaningful information from the vast amount of wine-related data and present it in a user-friendly and informative manner.
+What is the problem, And where is the challenge-> The problem is that I'm having trouble with the last part of this data, the prediction part. Also, I had a hard time with the countplot() function.
 
 ## Description
-To overcome data collection challenges, automated web scraping tools can be employed to gather wine-related data from various sources.
-
-Cleaning processes, like handling missing values and inconsistencies, can be tackled using data wrangling techniques and robust data pipelines.
+How have you solved the problem->I solved these problems by looking at the documentation.Countplot() from the seaborn documentation and Predict from the sklearn documentation!:)
 
 ## Installation
-pip install scikit-learn pip install seaborn pip install lightgbm pip install catboost
+How to install your project, npm install, make, make re->pip install seaborn; plotly; sklearn->-U scikit-learn(new_version).
+Libraries
+import pandas as pd
+import numpy as np
+import warnings
+warnings.filterwarnings("ignore")
+import matplotlib.pyplot as plt
+And predict models libraries...
 
 ## Usage
-jupyter notebook
-
+How does it work-> If you look at the code of this project in my jupyter, my project first downloads the data; Analyzes it; shows its analysis in diagrams; makes predictions; compares actual and predicted data.
