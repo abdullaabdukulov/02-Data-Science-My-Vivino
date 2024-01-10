@@ -1,5 +1,5 @@
 # Welcome to My Vivino
-
+Welcome to my vivino
 
 ## Task
 What is the problem? And where is the challenge?
@@ -25,8 +25,3 @@ Next, we drew some visualizations to better understand the data.
 Finally I have split the data int x_train, x_test, y_train and y_tes and fited sevral
 sklearn models. These are GradientBoostingRegressor, RandomForestRegressor, LinearRegression
 DecisionTreeRegressor and KNeighborsRegressor
-
-
-```
-./my_project argument1 argument2
-```
