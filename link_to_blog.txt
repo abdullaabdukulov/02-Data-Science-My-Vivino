@@ -1,0 +1,1 @@
+link_to_blog_post = https://medium.com/@abdulazizzukhriddinov/my-vivino-0ddf80cc323d
