@@ -1,65 +1,104 @@
-## Task
-Loading Dataset: The script loads the wine dataset from a CSV file using Pandas.
+# 02-Data-Science-My-Vivino
 
-Cleaning Dataset: It cleans the dataset by dropping unnecessary columns, converting data types, handling missing values, and encoding categorical variables.
+<div class="row">
+<div class="col tab-content">
+<div class="tab-pane active show" id="subject" role="tabpanel">
+<div class="row">
+<div class="col-md-12 col-xl-12">
+<div class="markdown-body">
+<p class="text-muted m-b-15">
+</p><h2>My Vivino</h2>
+<table>
+<thead>
+<tr>
+<th>Technical details</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Submit file</td>
+<td>my_vivino.ipynb</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>My Vivino is an online marketplace. We have a vast wine database, and we have 27 million users, mainly in North America.</p>
+<p>One of our leading services is a wine recommendation system. It starts to be a little old. Rules-based. We are selling wine based on our customer visit/research.</p>
+<p>You've just finished a meeting with your product manager. Data science is the future, and our competitor <code>my_wine.com</code> has invested a lot in it.</p>
+<p>Following your suggestion, my_vivino's CEO has decided to allocate a budget to move forward on the data science project you've proposed.</p>
+<p><em>Which project?</em></p>
+<p>What are the success criteria?</p>
+<ul>
+<li>During our next meeting, you will have to show us some data (plot? report?) of what you've been building.</li>
+<li>Impact on the business. We need to make our customers happy.</li>
+</ul>
+<p>What to expect?</p>
+<ul>
+<li>Slides presentation.</li>
+<li>And the DevOps team should be able to push it to production.</li>
+</ul>
+<p>You've heard the CEO will be joining the meeting. It's a reminder if you do well, you can quickly expect the promotion you are expecting.</p>
+<h2>Technical specification</h2>
+<p>What is to be a Data Scientist?</p>
+<ol>
+<li>Data Collecting / Cleaning</li>
+<li>Data Exploration</li>
+<li>Data Visualization</li>
+<li>Machine Learning</li>
+<li>Communication</li>
+</ol>
+<p>You will have to prove yourself in each of these. We are confident you've already done it! :)</p>
+<p>Where to find the data?
+Any where. Scrap Vivino / Bevmo / Delectable / Wine-Searcher / ...</p>
+<p>It's an open project. You are free to find something you find will be useful to do some data analysis on:</p>
+<ul>
+<li>rating system?</li>
+<li>comments system? detect most valuable comments?</li>
+<li>wine suggestion?</li>
+<li>wine classification?</li>
+<li>wine quality?</li>
+<li>size of the market analysis?</li>
+<li>suggestion base on a meal recipe?</li>
+</ul>
+<p>Reminder, it will be one of your portfolio projects. You can find a lot of different ideas. Plagiarism is not tolerated in the company either here. :-)
+If you don't find enough information on wine, why not moving to the Whisky market, Beer market, or Coca? any beverage market? :-)</p>
+<p>You are in data <strong>science</strong>, so your blog post needs to report as a "scientific experiment"; you need to write your assumption, every step of the experiment, and the conclusion.
+Usually, with an opening to what you follow, what to experiment next?</p>
+<p>The scope is vast. You will find your idea :)</p>
+<p>How will this project be graded?</p>
+<ul>
+<li>Your code</li>
+<li>Your code quality</li>
+<li>Your slides quality</li>
+<li>Business impact</li>
+<li>Your blog post (You can inspire yourself from this fascinating <a href="https://kubernetes.io/blog/2020/05/my-exciting-journey-into-kubernetes-history/" target="_blank">blog post</a> on Kubernetes.)</li>
+</ul>
 
-Data Visualization:
+<p></p>
+</div>
 
-Histogram: Visualizes the distribution of wine ratings across different countries using a bar plot.
-Pie Chart: Illustrates the distribution of the top 10 countries contributing to the dataset.
-Scatter Plot: Displays the relationship between wine ratings and years.
-Pairplot and Heatmap: Shows the correlation between different features using pairplot and heatmap.
-Required Libraries:
+</div>
+</div>
+</div>
+<div class="tab-pane" id="resources" role="tabpanel">
+<div class="row">
+<div class="col-xl-12">
+<div class="row text-center">
+<div class="col p-t-10 f-12">
+<p>
+How To Use Jupyter In Docode
+</p>
+</div>
+</div>
+<div class="row text-center">
+<div class="col">
+<frame frameborder="0" src="https://www.youtube.com/embed/J5MpsvScKzE"></frame>
+</div>
+</div>
 
-scikit-learn
-pandas
-numpy
-matplotlib
-seaborn
-## Description
-This Python script performs Exploratory Data Analysis (EDA) on a wine dataset. The dataset contains information about various attributes of wines such as country, points, price, variety, and winery. The script utilizes popular Python libraries including Pandas, NumPy, Matplotlib, and Seaborn to analyze and visualize the dataset.
-
-The main functionalities of the script include:
-
-Loading the dataset from a CSV file.
-Cleaning the dataset by handling missing values and encoding categorical variables.
-Generating visualizations such as histograms, pie charts, scatter plots, pairplots, and heatmaps to explore the relationships between different features and gain insights into the dataset.
-Providing flexibility to modify the script for additional analysis or customization based on specific requirements.
-Key Features:
-
-Visualizing the distribution of wine ratings across different countries.
-Analyzing the contribution of top countries to the dataset.
-Exploring the relationship between wine ratings and years.
-Investigating correlations between different features using pairplots and heatmaps.
-## Installation
-Before running the code, ensure you have the required libraries installed. You can install them using pip (Python's package installer) if you haven't already:
-
-pip install scikit-learn pandas numpy matplotlib seaborn
-
-Make sure you have these packages installed. They are necessary for executing the code successfully. Additionally, ensure that you have a Python environment set up. You can create a virtual environment to manage dependencies effectively.
-## Usage
-1. Clone the Repository:
-   git clone https://github.com/yourusername/yourrepository.git
-
-2. Navigate to the Directory:
-   cd yourrepository
-
-3. Install Dependencies:
-   pip install scikit-learn pandas numpy matplotlib seaborn
-
-4. Run the Script:
-   python yourscript.py
-
-5. Interpreting Results:
-   - Once the script is executed, it will generate various visualizations depicting the exploratory data analysis of the wine dataset.
-   - Explore histograms, pie charts, scatter plots, pairplots, and heatmaps to gain insights into the dataset.
-   - Analyze the relationships between different features and their correlations.
-
-6. Modify the Script (Optional):
-   - You can modify the script to include additional analysis or customize visualizations based on your requirements.
-   - Experiment with different parameters or algorithms to further explore the dataset.
-
-7. Feedback and Contributions:
-   - Feel free to provide feedback or contribute to the script by opening an issue or submitting a pull request on GitHub.
-
-8. Enjoy Exploring the Data!
+</div>
+</div>
+</div>
+</div>
+</div>
