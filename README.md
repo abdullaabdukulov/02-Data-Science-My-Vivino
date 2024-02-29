@@ -14,6 +14,16 @@ Data exploration and preprocessing: Libraries like pandas and numpy help us unde
 Visualization and interpretability: matplotlib and seaborn aid in visualizing us data and understanding the relationships between features and the target variable.
 
 Model building and selection: scikit-learn and gradient boosting frameworks allow us to build, train, and evaluate different models.
+```
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install scikit-learn
+pip install xgboost
+pip install lightgbm
+pip install catboost
+```
 
 # Usage
 This program can be run in jupyter notebook or any interactive python notebook (.ipynb).
