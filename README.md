@@ -33,7 +33,7 @@ The project began with data cleaning, including filling missing values and conve
 
 1. Load the dataset:
 
-    Place your `vivino_dataset.csv` file in the project directory.
+    Place your `wine.csv` file in the project directory.
 
 2. Open the Jupyter Notebook:
 
