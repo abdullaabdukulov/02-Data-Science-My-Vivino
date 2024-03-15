@@ -1,0 +1,7 @@
+plotly-express==0.4.1
+requests==2.31.0
+beautifulsoup4==4.12.3
+numpy==1.26.4
+pandas==2.2.0
+selenium
+scikit-learn==1.4.1.post1
