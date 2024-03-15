@@ -1,1 +1,3 @@
 https://medium.com/@abdumalikov7475/wine-recommendation-system-c4e993708441
+
+https://02-data-science-my-vivino-8wpwfegiappqrojzresracv.streamlit.app/
